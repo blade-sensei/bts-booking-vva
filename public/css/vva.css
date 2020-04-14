@@ -1,0 +1,138 @@
+body {
+    padding-top: 50px;
+    background-color:gainsboro;
+    font-family: "Lucida Grande";
+
+}
+/*[class*="col-"]{*/
+/*background-color: lightgreen;*/
+/*border: 2px solid black;*/
+/*border-radius: 6px;*/
+/*line-height: 40px;*/
+/*text-align: center;*/
+/*}*/
+.footer{
+
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    background-color: #011340;
+    color:white;
+
+
+}
+.navbar-default {
+    background-color: #011340;
+    border-color: #072060;
+
+}
+.navbar-default .navbar-brand {
+    color: #2AF2A6;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #c8c7e1;
+}
+.navbar-default .navbar-text {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #c8c7e1;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #c8c7e1;
+    background-color: #072060;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #c8c7e1;
+    background-color: #072060;
+}
+.navbar-default .navbar-toggle {
+    border-color: #072060;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #072060;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+    color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+    color: #c8c7e1;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #c8c7e1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #c8c7e1;
+        background-color: #072060;
+    }
+}
+
+.table-responsive{
+    overflow: hidden;
+}
+#cadreHebergement{
+    border: 2px solid black;
+}
+.info-article{
+    background-color:white;
+}
+.img-fluid{
+    max-width: 100%;
+    height:auto;
+}
+.search-bar{;
+
+}
+.container-body{
+    margin-top: 2px;
+}
+.btn-primary{
+    background-color: #03213E;
+    color:white;
+}
+.btn-success{
+    background-color: #23bf83;
+}
+.select-db{
+    color:#03213E;
+
+}
+h1{
+    color: #1ba685;
+    font-size: 1.6em;
+}
+h3{
+    font-size: medium;
+}
+.panel-heading{
+    background-color: #03213E !important;
+}
+.home{
+    background-image: url("http://static.suedtirol.com/hotel-albion-mountain-spa-fs-mb-5858c.jpg");
+    height: 47em;
+    background-size: cover;
+}
+.barreRecherche{
+    margin-top: 200px;
+}
+.present{
+    color:white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 2.2em;
+    text-align: center;
+    padding-top: 50px;
+}
